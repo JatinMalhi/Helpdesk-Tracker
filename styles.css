@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  background: #f4f7fb;
+  color: #172033;
+}
+
+.app-header {
+  background: #14213d;
+  color: #ffffff;
+}
+
+.app-header p {
+  color: #d7e5ff;
+}
+
+.card,
+.empty-state {
+  border: 1px solid #dce3ee;
+}
+
+.empty-state {
+  background: #ffffff;
+}
+
+.ticket-card {
+  border-left: 5px solid #2563eb;
+}
+
+.ticket-description {
+  white-space: pre-wrap;
+}
+
+.success-message {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  z-index: 1100;
+  width: min(90%, 32rem);
+  transform: translateX(-50%);
+}
